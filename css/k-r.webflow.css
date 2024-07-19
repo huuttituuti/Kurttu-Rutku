@@ -21,7 +21,7 @@ p {
 }
 
 .nav-inner {
-  border-bottom: 1px rgba(255, 255, 255, .1);
+  border-bottom: 1px #ffffff1a;
   justify-content: space-between;
   align-items: center;
   width: 80vw;
@@ -33,18 +33,15 @@ p {
 
 .nav {
   z-index: 3;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   justify-content: space-around;
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
   position: relative;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .35);
+  inset: 0% 0% auto;
+  box-shadow: 0 0 10px #00000059;
 }
 
 .nav.transparent {
@@ -110,7 +107,7 @@ p {
 
 .hero {
   z-index: 999999;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   border: 1px #000;
   width: 100%;
   height: auto;
@@ -157,10 +154,7 @@ p {
   width: 100%;
   height: 30%;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .div-revontulet-taka {
@@ -173,10 +167,7 @@ p {
   width: 100%;
   height: 28%;
   position: absolute;
-  top: auto;
-  bottom: -4%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% -4%;
 }
 
 .div-block-3 {
@@ -186,15 +177,12 @@ p {
 
 .div-revontulet-halo {
   z-index: 2;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 123, 255, .76));
+  background-image: linear-gradient(#0000, #007bffc2);
   width: 100%;
   height: 70%;
   display: block;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .background-video {
@@ -212,10 +200,7 @@ p {
   width: 100%;
   height: 70%;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .section-2 {
@@ -250,10 +235,7 @@ p {
   margin-left: -270px;
   margin-right: 40px;
   position: absolute;
-  top: auto;
-  bottom: auto;
-  left: auto;
-  right: auto;
+  inset: auto;
 }
 
 .paragraph {
@@ -276,7 +258,7 @@ p {
 }
 
 .button-language {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   border-radius: 50px;
   margin-top: 12px;
   margin-left: 10px;
@@ -304,7 +286,7 @@ p {
 }
 
 .button-lang-fi {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   background-image: url('../images/finnish_flag_icon.svg');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -415,7 +397,7 @@ p {
 }
 
 .dropdown-list.w--open {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   width: auto;
   height: 100px;
   font-family: Quicksand, sans-serif;
@@ -565,10 +547,7 @@ p {
   background-size: cover;
   height: 100%;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .revontulet-otsikko {
@@ -576,10 +555,7 @@ p {
   width: 45%;
   max-width: 600px;
   position: absolute;
-  top: auto;
-  bottom: 45%;
-  left: 17%;
-  right: auto;
+  inset: auto auto 45% 17%;
 }
 
 .heading-1-finland-guide {
@@ -643,13 +619,10 @@ p {
 
 .div-block-11 {
   z-index: 10;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), #300c58);
+  background-image: linear-gradient(#0000, #300c58);
   height: 10%;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .body {
@@ -659,7 +632,7 @@ p {
 }
 
 .index_hero {
-  background-image: linear-gradient(rgba(82, 157, 255, .56), rgba(82, 157, 255, .56)), url('../images/K-R-background_1.webp');
+  background-image: linear-gradient(#529dff8f, #529dff8f), url('../images/K-R-background_1.webp');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -685,7 +658,7 @@ p {
   padding: 30px;
   font-family: Quicksand, sans-serif;
   display: flex;
-  box-shadow: 2px 2px 20px rgba(17, 28, 111, .3);
+  box-shadow: 2px 2px 20px #111c6f4d;
 }
 
 .index_hero-welcome-info-wrp.white {
@@ -717,7 +690,7 @@ p {
   font-weight: 500;
   transition: background-color .15s;
   display: flex;
-  box-shadow: 3px 3px 5px rgba(17, 28, 111, .3);
+  box-shadow: 3px 3px 5px #111c6f4d;
 }
 
 .index_hero-welcome-btn:hover {
@@ -919,10 +892,7 @@ p {
 .index_intro-guides-btn-link {
   z-index: 5;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
 }
 
 .footer-image {
@@ -1113,7 +1083,7 @@ p {
 }
 
 .section-5 {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1215,7 +1185,7 @@ p {
 
 .div-block-21 {
   z-index: 2;
-  background-color: rgba(255, 79, 35, .32);
+  background-color: #ff4f2352;
   border-radius: 100px;
   width: 100%;
   position: relative;
@@ -1334,7 +1304,7 @@ p {
 .section-10 {
   z-index: 1;
   background-color: #f1f1f1;
-  background-image: linear-gradient(rgba(236, 236, 236, .79), rgba(236, 236, 236, .79)), url('../images/Kurttu-Rutku-sanomalehti-newspaper-texture.webp');
+  background-image: linear-gradient(#ecececc9, #ecececc9), url('../images/Kurttu-Rutku-sanomalehti-newspaper-texture.webp');
   background-position: 0 0, 50%;
   background-size: auto, auto;
   justify-content: center;
@@ -1433,7 +1403,7 @@ p {
   display: flex;
   position: relative;
   overflow: hidden;
-  box-shadow: 6px 6px 13px rgba(0, 0, 0, .15);
+  box-shadow: 6px 6px 13px #00000026;
 }
 
 .store_product-wrp.turku {
@@ -1455,7 +1425,7 @@ p {
 .store_product-heading {
   color: #fff;
   cursor: text;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 2rem;
@@ -1766,10 +1736,7 @@ p {
 .image-10 {
   width: 40px;
   position: absolute;
-  top: 3%;
-  bottom: auto;
-  left: auto;
-  right: 7%;
+  inset: 3% 7% auto auto;
 }
 
 .store_product-lang-blue {
@@ -1781,10 +1748,7 @@ p {
   font-family: Quicksand, sans-serif;
   font-weight: 700;
   position: absolute;
-  top: 1rem;
-  bottom: auto;
-  left: auto;
-  right: 1rem;
+  inset: 1rem 1rem auto auto;
 }
 
 .store_product-lang-blue.orange {
@@ -1793,22 +1757,18 @@ p {
 
 .store_product-lang-blue.price {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   border: 2px solid #fff;
   padding-top: 5px;
   padding-bottom: 5px;
   font-weight: 500;
-  top: 15px;
-  bottom: auto;
-  left: 15px;
-  right: auto;
+  inset: 15px auto auto 15px;
 }
 
 .grid-6 {
   grid-row-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: stretch;
-  justify-items: center;
+  place-items: stretch center;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -1828,10 +1788,7 @@ p {
   font-family: "Fa solid 900", sans-serif;
   font-size: 25px;
   position: absolute;
-  top: 45%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: 45% 0% 0% auto;
   transform: rotate(-90deg);
 }
 
@@ -1913,28 +1870,19 @@ p {
   padding: .5rem 1rem;
   font-weight: 500;
   position: absolute;
-  top: 1rem;
-  bottom: auto;
-  left: 1rem;
-  right: auto;
+  inset: 1rem auto auto 1rem;
 }
 
 .store_product-bg-blue {
   background-image: linear-gradient(to bottom, var(--royal-blue), #eec2ff);
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .store_product-bg-orange {
   background-image: linear-gradient(#ff6b54, #ffdb8b);
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .store_product-lang-orange {
@@ -1944,10 +1892,7 @@ p {
   padding: .5rem 1rem;
   font-weight: 700;
   position: absolute;
-  top: 1rem;
-  bottom: auto;
-  left: auto;
-  right: 1rem;
+  inset: 1rem 1rem auto auto;
 }
 
 .hide {
@@ -2047,7 +1992,7 @@ p {
     justify-content: flex-start;
     width: 300px;
     padding-top: 30px;
-    box-shadow: 1px 1px 17px -3px rgba(0, 0, 0, .38);
+    box-shadow: 1px 1px 17px -3px #00000061;
   }
 
   .hero {
@@ -2312,7 +2257,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 23px;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 20px #0003;
   }
 
   .brand-2 {
