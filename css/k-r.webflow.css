@@ -2714,6 +2714,7 @@ a {
 
 .cookies_grid-div-wrp {
   border: 1px solid #8f8f8f;
+  width: 100%;
   padding: 1rem;
 }
 
@@ -2733,7 +2734,7 @@ a {
 
 .paragraph-4 {
   margin-top: .75rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .page_heading-hero {
