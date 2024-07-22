@@ -2344,6 +2344,7 @@ a {
 .fs-cc-banner_text-header {
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
+  cursor: pointer;
   padding: .5rem .2rem;
   font-weight: 700;
   display: flex;
