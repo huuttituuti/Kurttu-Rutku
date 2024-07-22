@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Mon Jul 22 2024 12:27:23 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Mon Jul 22 2024 15:08:16 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5cfbdcde0e478537e959f344" data-wf-site="5cd2644c3ab9b1575b81c272" lang="en">
 <head>
   <meta charset="utf-8">
@@ -23,10 +23,33 @@
   <script type="text/javascript">WebFont.load({  google: {    families: ["Quicksand:300,regular,500,700"]  }});</script>
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="../images/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="../images/webclip.jpg" rel="apple-touch-icon">
-  <link rel="preconnect" href="https://app.snipcart.com">
-  <link rel="preconnect" href="https://cdn.snipcart.com">
-  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.css">
+  <link href="../images/webclip.jpg" rel="apple-touch-icon"><!--  Code & Wander Cookie Consent: https://google-consent-mode.webflow.io/  -->
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  if(localStorage.getItem('consentMode') === null){
+    gtag('consent', 'default', {
+      'ad_storage': 'denied', //Google Ads
+      'analytics_storage': 'denied', //Google Analytics
+      'ad_user_data': 'denied', //Google Ads
+      'ad_personalization': 'denied', //Google Ads
+      'personalization_storage': 'denied', //e.g reccomendations based on previous browsing
+      'functionality_storage': 'denied', //Functionality e.g Language selected
+      'security_storage': 'denied', //Auth and Authentication
+    });
+  } else {
+    gtag('consent', 'default', JSON.parse(localStorage.getItem('consentMode')));
+  }
+</script>
+  <!--  Finsweet Cookie Consent (to store consent to cloudfare for 2 years / 730 days)  -->
+  <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js" fs-cc-mode="opt-in" fs-cc-expires="730" fs-cc-endpoint="https://cookie-consent.kurttu-rutku.workers.dev/"></script>
+  <!--  Google Tag Manager  -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TT8BXL7Z');</script>
+  <!--  End Google Tag Manager  -->
 </head>
 <body class="body">
   <div data-collapse="medium" data-animation="over-left" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav w-nav">
@@ -138,9 +161,268 @@
       <p class="leipateksti copyright">Copyright © Ruusa Lahti<br>All rights reserved.</p>
     </div>
   </div>
+  <div class="set-all-components-to-display-none-and-use-this-div-to-create-a-symbol">
+    <div id="cookie-banner" fs-cc="banner" class="fs-cc-banner_component">
+      <div class="fs-cc-banner_buttons-wrapper">
+        <div class="fs-cc-banner-heading">May we use some cookies?</div>
+        <div class="fs-cc-banner_buttons-wrapper">
+          <a id="btn-accept-all" fs-cc="allow" href="#" class="fs-cc-banner_button w-button">Accept all cookies</a>
+          <a id="btn-reject-all" fs-cc="deny" href="#" class="fs-cc-banner_button w-button">Refuse all cookies</a>
+          <a fs-cc="open-preferences" href="#" class="fs-cc-banner_text-link">Settings and<br>partners</a>
+        </div>
+        <div fs-cc="close" class="fs-cc-banner_close">
+          <div class="fs-cc-banner_close-icon w-embed"><svg fill="currentColor" aria-hidden="true" focusable="false" viewbox="0 0 16 16">
+              <path d="M9.414 8l4.293-4.293-1.414-1.414L8 6.586 3.707 2.293 2.293 3.707 6.586 8l-4.293 4.293 1.414 1.414L8 9.414l4.293 4.293 1.414-1.414L9.414 8z"></path>
+            </svg></div>
+        </div>
+        <div data-w-id="99ab3cdc-6546-13d8-f378-f0a4208a70f5" class="fs-cc-banner_text-wrp">
+          <div class="fs-cc-banner_text-header">
+            <div>&gt;</div>
+            <div>Click to read more about terms</div>
+          </div>
+          <div class="fs-cc-banner_text">By clicking <strong>“Accept all cookies”</strong> you agree to the storing of cookies on your device to enhance user experience and to analyze site usage, and assist in our marketing. We partner with the Google services and you can read their privacy statement from this <a href="https://policies.google.com/privacy"><strong>link</strong></a>. For more information about cookies, please read our <a href="https://www.naturamedia.fi/evastekaytannot"><strong>Cookie Policy</strong></a>.</div>
+        </div>
+      </div>
+      <div fs-cc="interaction" class="fs-cc-banner_trigger"></div>
+    </div>
+    <div fs-cc="manager" class="fs-cc-manager_component">
+      <div id="cookie-icon" fs-cc="open-preferences" class="fs-cc-manager_button">
+        <div class="fs-cc-manager_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewbox="0 0 256 256">
+            <path d="M164.49,163.51a12,12,0,1,1-17,0A12,12,0,0,1,164.49,163.51Zm-81-8a12,12,0,1,0,17,0A12,12,0,0,0,83.51,155.51Zm9-39a12,12,0,1,0-17,0A12,12,0,0,0,92.49,116.49Zm48-1a12,12,0,1,0,0,17A12,12,0,0,0,140.49,115.51ZM232,128A104,104,0,1,1,128,24a8,8,0,0,1,8,8,40,40,0,0,0,40,40,8,8,0,0,1,8,8,40,40,0,0,0,40,40A8,8,0,0,1,232,128Zm-16.31,7.39A56.13,56.13,0,0,1,168.5,87.5a56.13,56.13,0,0,1-47.89-47.19,88,88,0,1,0,95.08,95.08Z"></path>
+          </svg></div>
+      </div>
+      <div fs-cc="interaction" class="fs-cc-manager_trigger"></div>
+    </div>
+    <div fs-cc-scroll="disable" fs-cc="preferences" class="fs-cc-prefs_component w-form">
+      <form id="cookie-preferences" name="wf-form-Cookie-Preferences" data-name="Cookie Preferences" method="get" class="fs-cc-prefs_form" data-wf-page-id="5cfbdcde0e478537e959f344" data-wf-element-id="99ab3cdc-6546-13d8-f378-f0a4208a710e">
+        <div fs-cc="close" class="fs-cc-prefs_close">
+          <div class="fs-cc-prefs_close-icon-2 w-embed"><svg fill="currentColor" aria-hidden="true" focusable="false" viewbox="0 0 16 24">
+              <path d="M9.414 8l4.293-4.293-1.414-1.414L8 6.586 3.707 2.293 2.293 3.707 6.586 8l-4.293 4.293 1.414 1.414L8 9.414l4.293 4.293 1.414-1.414L9.414 8z"></path>
+            </svg></div>
+        </div>
+        <div class="fs-cc-prefs_content">
+          <div class="fs-cc-prefs_space-small">
+            <div class="fs-cc-prefs_title">Cookie Settings</div>
+          </div>
+          <div class="fs-cc-prefs_space-small">
+            <div class="fs-cc-prefs_text">When you visit websites, they may store or retrieve information in your browser. This storage is often necessary for basic website functions. This storage can be used for marketing, analytics and website personalisation, such as saving your preferences. Privacy is important to us, so you have the option to disable certain types of storage that are not necessary for the basic functionality of the website. However, disabling these may affect your experience of using the website. You can read more about our <a href="#" class="link-6 link-7 link-8"><span class="text-span-3">Cookie policy</span></a>.</div>
+          </div>
+          <div class="fs-cc-prefs_space-medium">
+            <a id="btn-pref-reject-all" fs-cc="deny" href="#" class="fs-cc-prefs_button w-button">Refuse all cookies</a>
+            <a id="btn-pref-accept-all" fs-cc="allow" href="#" class="fs-cc-prefs_button w-button">Accept all cookies</a>
+          </div>
+          <div class="fs-cc-prefs_space-small">
+            <div class="fs-cc-prefs_title">Manage consent settings by category</div>
+          </div>
+          <div class="fs-cc-prefs_option">
+            <div class="fs-cc-prefs_toggle-wrapper">
+              <div class="fs-cc-prefs_label"><strong>Essential</strong></div>
+              <div class="fs-cc-prefs_text"><strong>Always active</strong></div>
+            </div>
+            <div class="fs-cc-prefs_text">These items are required to enable basic website functionality.</div>
+          </div>
+          <div class="fs-cc-prefs_option">
+            <div class="fs-cc-prefs_toggle-wrapper">
+              <div class="fs-cc-prefs_label">Marketing</div><label class="w-checkbox fs-cc-prefs_checkbox-field"><input type="checkbox" name="Marketing" id="consent-marketing" data-name="Marketing" fs-cc-checkbox="marketing" class="w-checkbox-input fs-cc-prefs_checkbox"><span for="Marketing" class="fs-cc-prefs_checkbox-label w-form-label">Essential</span>
+                <div class="fs-cc-prefs_toggle"></div>
+              </label>
+            </div>
+            <p class="fs-cc-prefs_text-2">Marketing cookies help us understand how we can provide more relevant advertising to those interested in our products. They can also be used to limit ad impressions and measure the effectiveness of advertising campaigns.For this, we use Google&#x27;s marketing and analysis services. You can read Google&#x27;s privacy statement <a href="https://policies.google.com/privacy" class="text-span-3">here</a>.</p>
+            <div class="w-layout-grid cookies_grid-list prefs_component">
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a713d-208a70e5" class="cookies_grid-analytics-head">Evästetyyppi</div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a713f-208a70e5" class="cookies_grid-analytics-head">Voimassaolo</div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a7141-208a70e5" class="cookies_grid-analytics-head">Toiminta</div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a7143-208a70e5" class="cookies_grid-analytics-wrp prefs_component">
+                <a id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a7144-208a70e5" href="https://cookiedatabase.org/cookie/google-adsense/_gcl_au/" target="_blank" class="cookies_grid-cookie-link">_gcl_au</a>
+              </div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a7146-208a70e5" class="cookies_grid-analytics-wrp middle">
+                <div>Persistent</div>
+              </div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a7149-208a70e5" class="cookies_grid-analytics-wrp">
+                <div>To store and track conversions</div>
+              </div>
+            </div>
+          </div>
+          <div class="fs-cc-prefs_option">
+            <div class="fs-cc-prefs_toggle-wrapper">
+              <div class="fs-cc-prefs_label"><strong>Analytics</strong></div><label class="w-checkbox fs-cc-prefs_checkbox-field"><input type="checkbox" name="Analytics" id="consent-analytics" data-name="Analytics" fs-cc-checkbox="analytics" class="w-checkbox-input fs-cc-prefs_checkbox"><span for="Analytics" class="fs-cc-prefs_checkbox-label w-form-label">Essential</span>
+                <div class="fs-cc-prefs_toggle"></div>
+              </label>
+            </div>
+            <div class="fs-cc-prefs_text">Analytics cookies help us to better understand how our website works, including how visitors interact with the site and any technical problems. With this type of storage, we do not collect any information that could identify a visitor.For this, we use Google&#x27;s marketing and analysis services. You can read Google&#x27;s privacy statement <a href="https://policies.google.com/privacy" class="text-span-3">here</a>.<br></div>
+            <div class="w-layout-grid cookies_grid-list prefs_component">
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a715d-208a70e5" class="cookies_grid-analytics-head">Evästetyyppi</div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a715f-208a70e5" class="cookies_grid-analytics-head">Voimassaolo</div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a7161-208a70e5" class="cookies_grid-analytics-head">Toiminta</div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a7163-208a70e5" class="cookies_grid-analytics-wrp">
+                <a id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a7164-208a70e5" href="https://cookiedatabase.org/cookie/google-analytics/_ga_/" target="_blank" class="cookies_grid-cookie-link">_ga_*</a>
+              </div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a7166-208a70e5" class="cookies_grid-analytics-wrp middle">
+                <div>1 year</div>
+              </div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a7169-208a70e5" class="cookies_grid-analytics-wrp">
+                <div>To store and count pageviews</div>
+              </div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a716c-208a70e5" class="cookies_grid-analytics-wrp">
+                <a id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a716d-208a70e5" href="https://cookiedatabase.org/cookie/google-analytics/_ga/" target="_blank" class="cookies_grid-cookie-link">_ga</a>
+              </div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a716f-208a70e5" class="cookies_grid-analytics-wrp middle">
+                <div>2 years</div>
+              </div>
+              <div id="w-node-_99ab3cdc-6546-13d8-f378-f0a4208a7172-208a70e5" class="cookies_grid-analytics-wrp">
+                <div>To store and count pageviews</div>
+              </div>
+            </div>
+            <div class="cookies_vendor">
+              <div data-w-id="99ab3cdc-6546-13d8-f378-f0a4208a7176" class="cookies_vendor-head">
+                <div class="cookies_vendor-head-arrow">&gt;</div>
+                <div>More information about the data we collect</div>
+              </div>
+              <div class="cookies_vendor-content">
+                <div class="fs-cc-prefs_text w-richtext">
+                  <p>With the cookies indicated in the tables, we collect the following information by default using the Google Analytics service:</p>
+                  <ul role="list">
+                    <li>Number of users</li>
+                    <li>Session statistics</li>
+                    <li>Approximate geolocation</li>
+                    <li>Browser and device information</li>
+                  </ul>
+                  <p>If the site visitor has given permission for personalized advertising in their <em>Google account</em> settings and accepted both marketing and analytics cookies on our site, we also collect enhanced measurement events using <strong>Google Signals</strong>. With this service, we can e.g. measure how the content of the site activates users and it helps us to better adapt and optimize our advertising.</p>
+                  <p>In practice, this means that we receive the following information through the service:</p>
+                  <ul role="list">
+                    <li>Actions on our site</li>
+                    <li>The location of the device</li>
+                    <li>Search history</li>
+                    <li>Youtube history</li>
+                  </ul>
+                  <p>Google makes summaries of the collected data, which are always anonymous, meaning that the user cannot be identified. By default, this information expires after 26 months. From the settings of their own Google account, the user can change their consent regarding personalized advertising and manage and delete their data.</p>
+                  <p>You can read more about Google Signals event measurement and parameters from this <a href="https://support.google.com/analytics/answer/9216061?hl=fi&amp;sjid=16723761872263144881-EU"><strong>link</strong></a>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fs-cc-prefs_option hide">
+            <div class="fs-cc-prefs_toggle-wrapper">
+              <div class="fs-cc-prefs_label">Personalization</div><label class="w-checkbox fs-cc-prefs_checkbox-field"><input type="checkbox" name="personalization-2" id="personalization-2" data-name="Personalization 2" fs-cc-checkbox="" class="w-checkbox-input fs-cc-prefs_checkbox"><span for="personalization-2" class="fs-cc-prefs_checkbox-label w-form-label">Essential</span>
+                <div class="fs-cc-prefs_toggle"></div>
+              </label>
+            </div>
+            <div class="fs-cc-prefs_text">These items allow the website to remember choices you make (such as your user name, language, or the region you are in) and provide enhanced, more personal features. For example, a website may provide you with local weather reports or traffic news by storing data about your current location.</div>
+          </div>
+          <div class="fs-cc-prefs_buttons-wrapper">
+            <a id="btn-accept-some" fs-cc="submit" href="#" class="fs-cc-prefs_button w-button"><strong>Confirm my selection and close</strong></a>
+          </div><input type="submit" data-wait="Please wait..." class="fs-cc-prefs_submit-hide w-button" value="Submit">
+          <div class="w-embed">
+            <style>
+/* smooth scrolling on iOS devices */
+.fs-cc-prefs_content{-webkit-overflow-scrolling: touch}
+</style>
+          </div>
+        </div>
+      </form>
+      <div class="w-form-done"></div>
+      <div class="w-form-fail"></div>
+      <div fs-cc="close" class="fs-cc-prefs_overlay"></div>
+      <div fs-cc="interaction" class="fs-cc-prefs_trigger"></div>
+    </div>
+    <div class="cookie_script w-embed w-script"><!--  Cookie Consent Mode by Code & Wander  -->
+      <script>
+	// Check selection
+  document.getElementById('cookie-icon').addEventListener('click', function() {
+  	setConsentCheckboxes();
+  })
+  //Logic to populate the preferences
+  function setConsentCheckboxes() {
+  	uncheckAllConsentCheckboxes();
+    const consentModeString = localStorage.getItem('consentMode');
+  	if (consentModeString) {
+    	const consentMode = JSON.parse(consentModeString);
+        const consentMapping = {
+          'functionality_storage': 'consent-necessary',
+          'ad_storage': 'consent-marketing',
+          'analytics_storage': 'consent-analytics',
+          'personalization_storage': 'consent-preferences',
+        };
+        Object.entries(consentMapping).forEach(([storageKey, checkboxId]) => {
+          const checkbox = document.getElementById(checkboxId);
+         if (checkbox) {
+           checkbox.checked = consentMode[storageKey] === 'granted';
+         }
+    	});
+  	}
+	}
+  //Logic to uncheck all checkboxes
+  function uncheckAllConsentCheckboxes() {
+  	['consent-analytics', 'consent-preferences', 'consent-marketing'].forEach(checkboxId => {
+    	const checkbox = document.getElementById(checkboxId);
+    	if (checkbox) {
+      checkbox.checked = false;
+        const checkboxDiv = checkbox.previousElementSibling;
+        if (checkboxDiv && checkboxDiv.classList.contains('w--redirected-checked')) {
+          checkboxDiv.classList.remove('w--redirected-checked');
+        }
+    	}	
+  	});
+	}
+  // Logic to update the preferences
+  document.getElementById('btn-accept-all').addEventListener('click', function() {
+    setConsent({
+      necessary: true,
+      analytics: true,
+      preferences: false,
+      marketing: true
+    });
+  });
+	document.getElementById('btn-pref-accept-all').addEventListener('click', function() {
+    setConsent({
+      necessary: true,
+      analytics: true,
+      preferences: false,
+      marketing: true
+    });
+  });
+  document.getElementById('btn-accept-some').addEventListener('click', function() {
+    setConsent({
+      necessary: true,
+      analytics: document.getElementById('consent-analytics').checked,
+      //preferences: document.getElementById('consent-preferences').checked,
+      marketing: document.getElementById('consent-marketing').checked
+    });
+  });
+  document.getElementById('btn-reject-all').addEventListener('click', function() {
+    setConsent({
+      necessary: true,
+      analytics: false,
+      preferences: false,
+      marketing: false
+    });
+  });
+  document.getElementById('btn-pref-reject-all').addEventListener('click', function() {
+    setConsent({
+      necessary: true,
+      analytics: false,
+      preferences: false,
+      marketing: false
+    });
+  }); 
+  // Map the preferences to Google Consent Mode 
+  function setConsent(consent) {
+    const consentMode = {
+      'functionality_storage': consent.necessary ? 'granted' : 'denied',
+      'security_storage': consent.necessary ? 'granted' : 'denied',
+      'ad_storage': consent.marketing ? 'granted' : 'denied',
+      'ad_user_data': consent.marketing ? 'granted' : 'denied',
+      'ad_personalization': consent.marketing ? 'granted' : 'denied',
+      'analytics_storage': consent.analytics ? 'granted' : 'denied',
+      'personalization_storage': consent.preferences ? 'granted' : 'denied',
+    };
+    gtag('consent', 'update', consentMode);  
+    localStorage.setItem('consentMode', JSON.stringify(consentMode));
+  }
+</script>
+    </div>
+  </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5cd2644c3ab9b1575b81c272" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="../js/webflow.js" type="text/javascript"></script>
-  <script async="" src="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js"></script>
-  <div hidden="" id="snipcart" data-api-key="YmUxN2I5Y2ItNWM2MS00NjJkLThkZjAtNDU2YmQ2YmY5ZGQyNjM3NTEwNjE4NDIwOTYyNTEz"></div>
 </body>
 </html>
